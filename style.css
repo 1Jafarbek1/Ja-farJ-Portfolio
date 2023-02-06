@@ -1,0 +1,250 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+/* Menu Header Start */
+
+header  {
+    background-color: #333;
+    height: 100px;
+    line-height: 100px;
+    display: flex;
+}
+
+a {
+    color: #fff;
+}
+
+.navbar-container {
+    margin: 0 60px;
+    padding: 0 60px; 
+    max-width: 2000px;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.mr20 {
+    margin-right: 20px;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size: 35px;
+    float: left;
+}
+
+.navbar-links {
+    color: #fff;
+    font-size: 23px;
+    float: right;
+}
+
+.navbar-links a:hover {
+    border-bottom: 8px solid #a20000;
+    transition: 0.2s;
+}
+
+/* Menu Header finish */
+
+/* Menu Home Start  */
+
+.home {
+    display: flex;
+    width: 100%;
+    height: 88vh;
+    background-image: url("./black.jpg");
+}
+
+.container-discription1 h1 {
+    color: #fff;
+    font-size: 40px;
+}
+
+.home-animation {
+    margin-top: 30px;
+    height: 70px;
+    overflow: hidden;
+    position: relative;
+}
+
+.home-animation h2 {
+    color: #a20000;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 70px;
+    letter-spacing: 1px;
+}
+
+.home-animation h2:nth-child(1) {
+    animation: home-animation 10s infinite
+}
+
+@keyframes home-animation {
+    0% {
+        margin-top: 0;
+    }
+
+    25% {
+        margin-top: -70px;
+    }
+
+    50% {
+        margin-top: -140px;
+    }
+
+    75% {
+        margin-top: -70px;
+    }
+
+    100% {
+        margin-top: 0;
+    }
+}
+
+.text{
+    margin: 100px 150px;
+}
+
+.button1 {
+    margin-top: 100px;
+}
+
+span a {
+    border: 1px solid #c40000;
+    padding: 30px 40px;
+    background-color: #c40000;
+    border-radius: 40px;
+}
+
+span a:hover {
+    background-color: #c4000090;
+}
+
+.h2 {
+    font-size: 60px;
+    color: #fff;
+}
+
+/* Menu Home Finish */
+
+/* Menu About Start */
+
+.about {
+    background: #020202;
+    display: flex;
+}
+
+.image-g {
+    width: 80%;
+    background-image: url("./man.jpg");
+    max-width: 1600px;
+    margin: 100px auto;
+    float: right;
+    border-radius: 50px;
+    background-position: center;
+}
+
+.about-desciription {
+    max-width: 1600px;
+    width: 50%;
+    float: left;
+    margin: 100px;
+    margin-left: 500px;
+}
+
+.about-desciription h5 {
+    font-size: 60px;
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.about-desciription p {
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+/* Finish About Menu */
+
+/* Start Menu Services */
+
+#services {
+    display: flex;
+    background-color: #333;
+}
+
+#icon {
+    color: #a20000;
+    margin: 50px 218px;
+}
+
+.card {
+    border: 0px solid  black;
+    float: right;
+    width: 580px;
+    height: 500px;
+    justify-content: center;
+    margin-right: 30px;
+    box-shadow: -13px 5px 9px 6px rgba(0, 0, 0, 0.27);
+    border-radius: 15px;
+}
+
+.cards {
+    display: inline-block;
+    margin: 80px auto;
+    justify-content: center;
+}
+
+.h3 {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+
+p {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+
+.con {
+    justify-content: center;
+}
+
+/* Finish Services Menu */
+
+/* Start Menu Contact */
+
+.contact {
+    background-color: #020202;
+}
+
+.decoration {
+    padding-top: 50px;
+}
+
+.decoration h1 {
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+}
+
+.contact-icon {
+    color: #fff;
+    justify-content: center;
+    margin-left: 750px;
+}
+
+.mr-30 {
+    margin-top: 100px;
+    justify-content: center;
+    margin-right: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* Finish Veb Site */
